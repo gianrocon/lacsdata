@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Playwright
+.playwright-mcp/
+
+# Debug / dev output
+*.txt
+*.json
+exames-json/
+exames-lacs/
+relatorio*.md
+raw_text_dump.txt
+
+# Dev scripts
+extract_exames.py
+parse_salvador_pdf.py
+test_formato_string.py
